@@ -322,3 +322,6 @@ form.form-html5 label {
     background-color: rgb(102, 72, 207);
     color: white;
 }
+.cb {
+    clear: both;
+}
