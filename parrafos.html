@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso HTML5-CSS3</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container shadow">
+        <header>
+            <div class="row align-items-center">
+                <div class="col-3"><img class="round-img" src="img/logo.png" alt="logo" ></div>
+                <div class="col-9">
+                    <span id="btnmenu" onclick="opendrawer()">&#9776;</span>
+                    <nav id="menu">
+                        <ul class="text-right">
+                            <li>
+                                <a href="index.html">
+                                    Home
+                                </a>
+                            </li>
+                            <li>
+                                <a href="parrafos.html">
+                                    Párrafos
+                                </a>
+                            </li>
+                            <li>
+                                <a href="enlaces.html">
+                                    Enlaces
+                                </a>
+                            </li>
+                            <li>
+                                <a href="listas.html">
+                                    Listas
+                                </a>
+                            </li>
+                            <li>
+                                <a href="tablas.html">
+                                    Tablas
+                                </a>
+                            </li>
+                            <li>
+                                <a href="formularios.html">
+                                    Formularios
+                                </a>
+                            </li>
+                            <li>
+                                <a href="multimedia.html">
+                                    Multimedia
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main class="shadow">
+            <div class="px-3">
+                <h1 class="text-center bg-azul-o text-white py-3">HTML5 & CSS3</h1>
+            </div>
+            <div class="px-3">
+                <hr>
+            </div>
+            <div class="p-3">
+                <div id="parrafos">
+                    <h2 class="text-center">PÁRRAFOS</h2>
+                    <p>Esto es un párrafo</p>
+                    <h1>EL IMPERIO ROMANO</h1>
+                    <h2>La historia del imperio romano</h2>
+                    <h3>Qué es el imperio romano</h3>
+                    <p> El Imperio romano fue un dominio político-militar ejercido por la civilización romana sobre parte de Europa, África y Oriente próximo entre el año 27 a.C. y el año 476 d.C. Representa el tercer período de la civilización romana y la última etapa de la Antigüedad Clásica.</p>
+                    <h1 class="text-red">ENCABEZADO H1 EN ROJO</h1>
+                    <h2 class="text-center">Encabezado h2 en el centro</h2>
+                    <h3>Encabezado h3</h3>
+                    <h4 class="text-right">Encabezado h4 en la derecha</h4>
+                    <h5 class="bg-red">Encabezado h5 con fondo rojo</h5>
+                    <h6 class="bg-blue">Encabezado h6 con fondo azul</h6>
+                </div>
+                
+            </div>
+        </main>
+        <footer>
+            <h1 class="bg-azul-o text-center text-white py-3">&copy; Rubén Romero</h1>
+        </footer>
+    </div>
+    <script>
+        function opendrawer() {
+            document.getElementById('menu').style.display = 'block';
+            document.getElementById('menu').style.witdh = '100%';
+        }
+    </script>
+</body>
+
+</html>

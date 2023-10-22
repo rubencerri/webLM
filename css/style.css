@@ -1,0 +1,286 @@
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* For desktop: */
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+/* For mobile: */
+@media screen and (max-width: 1000px) {
+    .container {
+        width: 100%;
+    }
+}
+/* For desktop: */
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* For mobile: */
+@media screen and (max-width: 1000px) {
+    .row {
+        flex-wrap: wrap;
+    }
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+/* For desktop: */
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+/* For mobile: */
+@media only screen and (max-width: 1000px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
+/* For desktop: */
+[class*="col-"] {
+    padding: 15px;
+}
+
+.shadow {
+    box-shadow: 0 0 20px gainsboro;
+    border-radius: 10px;
+}
+nav ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+    padding: 10px;
+    font-size: 20px;
+}
+/* For mobile: */
+@media screen and (max-width: 1000px) {
+    nav li {
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+    }
+    nav ul {
+        background-color: rgb(243, 251, 254);
+    }
+}
+
+nav li a {
+    color: rgb(0, 0, 0);
+}
+
+nav li:hover {
+    background-color:  rgb(225, 245, 253);
+}
+
+.text-right{
+    text-align: right;
+}
+
+a {
+    text-decoration: none;
+}
+.text-center {
+    text-align: center;
+}
+.py-3 {
+    padding: 16px 0;
+}
+.px-3 {
+    padding: 0 16px;
+}
+.p-3 {
+    padding: 16px;
+}
+
+.bg-azul-o {
+    background-color: rgba(254, 45, 45, 0.903);
+}
+.bg-azul-c {
+    background-color: rgb(240, 249, 252);
+}
+.text-white {
+    color: white;
+}
+footer h1 {
+    border-bottom-left-radius: 10px;
+}
+footer h1 {
+    border-bottom-right-radius: 10px;
+}
+
+h1 {
+    margin: 0;
+}
+
+#btnmenu {
+    font-size: 40px;
+    display: none;
+}
+/* For mobile: */
+@media screen and (max-width: 1000px) {
+    #btnmenu {
+        display: inline;
+    }
+    #menu{
+        display: none;
+    }
+}
+@media screen and (max-width: 1600px) and (min-width: 1000px)  {
+    #menu{
+        display: block;
+    }
+}
+/* css de las prácticas */
+#home img {
+    width: 100%;
+    padding: 0 20px;
+}
+.text-red {
+    color: red;
+}
+.bg-blue {
+    background-color: blue;
+    color: white;
+}
+.bg-green {
+    background-color: green;
+}
+.bg-red {
+    background-color: rgb(255, 0, 0);
+}
+.text-subr {
+    text-decoration: underline;
+}
+#listaoc ol {
+    list-style-type: upper-alpha;
+}
+#listaoc ol ol {
+    list-style-type: upper-roman;
+}
+#listaotc ol {
+    list-style-type: lower-alpha;
+}
+#listaotc ol ol {
+    list-style-type: lower-roman;
+}
+#listaotc ol ol ol {
+    list-style-type: upper-roman;
+}
+#listadtc ul ul {
+    list-style-image: url(../img/nano.png);
+}
+#listadtc ul ul ul{
+    list-style-image: none;
+    list-style-type: square;
+}
+dt {
+    background-color: rgb(3, 3, 39);
+    color: white;
+    font-size: 20px;
+    display: inline;
+}
+dd {
+    padding: 10px 0;
+}
+.round-img{
+    border-radius: 15%;
+}
+.tb-center{
+    margin: 0 auto;
+}
+.celda-centre{
+    text-align: center;
+    border: none;
+}
+table.horario th {
+    background-color: #f0f0f0;
+    color: #008080;
+}
+.fol {
+    background-color: #f0f0c8;
+}
+.ende {
+    background-color: #b4b36e;
+}
+.lm {
+    background-color: #f7cac9;
+}
+.prog {
+    background-color: #b37b7a;
+}
+.sisi {
+    background-color: #a5da9c;
+}
+.ing {
+    background-color: #77b3eb;
+}
+.bd {
+    background-color: #d2d2fb;
+}
+.fol {
+    background-color: #8081bb;
+}
