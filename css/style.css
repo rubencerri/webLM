@@ -249,6 +249,28 @@ dd {
 .round-img{
     border-radius: 15%;
 }
+table.tcenter {
+    width: 60%;
+    margin: 0 auto;
+}
+table.tcenter th{
+    background-color: rgb(109, 0, 0);
+    color: white;
+    font-size: 22px;
+}
+table.tcenter td{
+    padding: 6px;
+    font-size: 18px;
+}
+table.tstriped tr:nth-child(odd){
+    background-color: rgb(219, 255, 127);  
+}
+table.tstriped tr:nth-child(even){
+    background-color: rgb(15, 87, 241);  
+}
+table.tborder, table.tborder td {
+    border: solid 1px gray;
+}
 .tb-center{
     margin: 0 auto;
 }
