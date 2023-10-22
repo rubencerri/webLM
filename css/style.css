@@ -252,9 +252,15 @@ dd {
 .tb-center{
     margin: 0 auto;
 }
-.celda-centre{
+
+table.horario {
+    font-size: 20px;
+    width: 70%;
+    margin: 0 auto;
     text-align: center;
-    border: none;
+}
+table.horario td {
+    color: black;
 }
 table.horario th {
     background-color: #f0f0f0;
@@ -283,4 +289,36 @@ table.horario th {
 }
 .fol {
     background-color: #8081bb;
+}
+form.form-login {
+    width: 50%;
+    float: left;
+    padding: 0 40px;
+}
+form.form-registro {
+    width: 50%;
+    float: right;
+    padding: 0 40px;
+}
+form.form-login fieldset{
+    width: 60%;
+}
+form.form-html5 {
+    width: 40%;
+    margin: 0 auto;
+}
+
+form.form-html5 fieldset {
+    padding: 0 30px;
+    background-color: #e2fafa;
+}
+form.form-html5 legend {
+    background-color: rgb(10, 3, 70);
+    color: white;
+    padding: 8px;
+    font-size: 20px;
+}
+form.form-html5 label {
+    background-color: rgb(102, 72, 207);
+    color: white;
 }
